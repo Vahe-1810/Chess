@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chessStyle.css">
+    <title>Мy Chess</title>
+</head>
+<body>
+    <div class="all">
+        <div class="chess" id="chs"></div>
+        <div class="line_up white"> 
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src="https://www.symbols.com/images/symbol/1/3409_white-pawn.png" height="50px" class="wfigure pawn">
+            <img src='https://cdn.pixabay.com/photo/2013/07/12/16/56/chess-151540_1280.png' height="40px" class="wfigure castle c">
+            <img src='https://cdn.pixabay.com/photo/2013/07/12/16/56/chess-151540_1280.png' height="40px" class="wfigure castle c">
+            <img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Bishop-icon.png" height="46px" class="wfigure elph">
+            <img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Bishop-icon.png" height="46px" class="wfigure elph">
+            <img src="https://cdn.pixabay.com/photo/2012/04/13/17/39/knight-33015_1280.png" height="42px" class="wfigure horse">
+            <img src="https://cdn.pixabay.com/photo/2012/04/13/17/39/knight-33015_1280.png" height="42px" class="wfigure horse">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chess_klt45.svg/1024px-Chess_klt45.svg.png" height="55px" class="figure king" id="king">
+            <img src="https://svgsilh.com/svg/147057.svg" height="40px" class="wfigure queen" id="queen">
+        </div>
+        <div class="line_up black">    
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="https://www.symbols.com/images/symbol/3403_black-pawn.png" width="50px" alt="" class="bfigure blkpawn">
+            <img src="http://www.clker.com/cliparts/5/6/3/7/12205466761087781847portablejim_Chess_tile_-_Rook_1.svg.hi.png" width="35px" alt="" class="bfigure blkcastle c">
+            <img src="http://www.clker.com/cliparts/5/6/3/7/12205466761087781847portablejim_Chess_tile_-_Rook_1.svg.hi.png" width="35px" alt="" class="bfigure blkcastle c">
+            <img src="https://icon-library.com/images/bishop-icon/bishop-icon-16.jpg"  height="44px" class="bfigure blkelph">
+            <img src="https://icon-library.com/images/bishop-icon/bishop-icon-16.jpg"  height="44px" class="bfigure blkelph">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/13/27/knight-147065_1280.png" height="42px" class="bfigure blkhorse">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/13/27/knight-147065_1280.png" height="42px" class="bfigure blkhorse">
+            <img src="https://www.symbols.com/images/symbol/3398_black-king.png" height="55px" class="figure blkking" id="blkking">
+            <img src="https://www.symbols.com/images/symbol/1/3399_black-queen.png" height="50px" class="bfigure blkqueen" id="blkqueen">
+        </div>
+        <button onclick="disposition()">Start Game</button>
+    </div>
+    
+    <script src="./Новая папка/chess.js"></script>
+    <script src="./Новая папка/figure_walking.js"></script>
+    <script src="./Новая папка/for_figure_operations.js"></script>
+</body>
+</html>
